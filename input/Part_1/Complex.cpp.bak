@@ -1,0 +1,16 @@
+class Complex {
+	private:
+	double a;
+	double b;
+
+	public:
+	/**
+	 * Create the complex number a + bi
+	 * @param a The real coefficent of a Complex number
+	 * @param b The imaginary coefficient of a Complex number
+	 */
+	Complex(double a, double b) {
+		this->a = a;
+		this->b = b;
+	}
+};
